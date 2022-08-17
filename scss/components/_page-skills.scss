@@ -1,4 +1,121 @@
-.skills__suptittle {
+@media screen and(max-width:1199px) {
+    .skills__suptittle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    /*letter-spacing: 0.03em;*/
+    text-transform: uppercase;
+
+    color: var(--tittle-color);
+    margin-top: 30px;
+
+
+}
+
+.skills__text {
+    /*font-size: 14px;*/
+    line-height: 1.71;
+    width: 354px;
+    height: 75px;
+    margin-top: 10px;
+    /* or 171% */
+    /* letter-spacing: 0.03em;*/
+
+    color: var(--description-color);
+}
+
+
+.skills__list {
+    display: flex;
+flex-wrap: wrap;
+gap: 30px;
+justify-content: center;
+}
+
+
+
+
+
+
+
+.skills__div {
+    width: 354px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #f5f4fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skills__icon {
+    width: 70px;
+    height: 70px;
+}
+}
+
+@media screen and(max-width:767px) {
+    .skills__suptittle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    /*letter-spacing: 0.03em;*/
+    text-transform: uppercase;
+
+    color: var(--tittle-color);
+    margin-top: 30px;
+text-align: center;
+
+}
+
+.skills__text {
+    /*font-size: 14px;*/
+    line-height: 1.71;
+    // width: 270px;
+    height: 75px;
+    margin-top: 10px;
+    /* or 171% */
+    /* letter-spacing: 0.03em;*/
+max-width:450px;
+    color: var(--description-color);
+}
+
+
+.skills__list {
+    display: flex;
+flex-wrap: wrap;
+
+justify-content: center;
+}
+
+
+
+
+
+
+
+.skills__div {
+    max-width: 450px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #f5f4fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skills__icon {
+    width: 70px;
+    height: 70px;
+}
+}
+
+
+
+@media screen and(min-width:1200px) {
+    .skills__suptittle {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -26,7 +143,8 @@
 
 .skills__list {
     display: flex;
-
+flex-wrap: wrap;
+margin: 0 auto;
 }
 
 
@@ -51,4 +169,5 @@
 .skills__icon {
     width: 70px;
     height: 70px;
+}
 }

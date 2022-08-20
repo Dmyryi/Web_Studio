@@ -1,8 +1,6 @@
-.skills {
-    padding-top: 94px;
-}
 
-.skills__tittle {
+
+.skills__title {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -15,3 +13,25 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+@media screen and(max-width:767px) {
+    .skills {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and(min-width:768px) {
+    .skills {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and(min-width:1200px) {
+    .skills {
+        padding-top: 94px;
+        padding-bottom: 0;
+    }
+}
+

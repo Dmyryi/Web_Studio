@@ -1,5 +1,8 @@
 
-
+.page-header{
+    height: 60px;
+    border-bottom: 1px solid #ECECEC;
+}
 @media screen and(min-width:768px) {
     .page-header .container {
     display: flex;
@@ -8,7 +11,7 @@
 }
 
  .page-header {
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
     height: 80px;
     align-items: center; 
  }
@@ -32,7 +35,7 @@
     }
     
      .page-header {
-        border: 1px solid #ECECEC;
+        border-bottom: 1px solid #ECECEC;
         height: 80px;
         align-items: center; 
      }

@@ -62,6 +62,11 @@
     }
   }
 
+  @media screen and (max-width: 767px){
+    .skills__item:not(:last-child) {
+            margin-bottom: 30px;
+        }
+  }
 
   @media screen and (min-width: 1200px) {
     .skills__list {

@@ -560,7 +560,7 @@
          
                 <div class="modal-list">
                     <label for="user-name" class="modal-list__label">Имя</label>
-                    <input id="user-name" class="modal-list__input" type="text" name="user-name" required class="modal-input" class="modal-list__input-window">
+                    <input id="user-name" class="modal-list__input modal-list__input-window modal-input" type="text" name="user-name" required>
                     <svg class="modal-list__svg">
                         <use href="./images/icons/icons.svg#icon-user" width="12" height="12"></use>
                     </svg>
@@ -569,8 +569,8 @@
                 
                 <div class="modal-list">
                     <label for="user-tel" class="modal-list__label">Телефон</label>
-                    <input type="tel" class="modal-list__input" id="user-tel" name="user-tel" pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-                        required class="modal-input">
+                    <input type="tel" class="modal-list__input modal-input" id="user-tel" name="user-tel" pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                        required >
                     <svg class="modal-list__svg">
                         <use href="./images/icons/icons.svg#icon-tel" width="13" height="13"></use>
                     </svg>
@@ -579,7 +579,7 @@
                 
                 <div class="modal-list">
                     <label for="user-email" class="modal-list__label">Почта</label>
-                    <input type="email" class="modal-list__input" id="user-email" name="user-email" required class="modal-input">
+                    <input type="email" class="modal-list__input modal-input" id="user-email" name="user-email" required>
                     <svg class="modal-list__svg">
                         <use href="./images/icons/icons.svg#icon-mail" width="15" height="12"></use>
                     </svg>
@@ -593,7 +593,7 @@
 
                 <input type="checkbox" name="user-term" class="modal__check visually-hidden" id="user-term">
 
-                <label for="user-term" class="modal__check-desc modal__text">Соглашаюсь с рассылкой и принимаю&nbsp;<a href="#" class="modal__contract">Условия договора</a></label>
+                <label for="user-term" class="modal__check-desc modal__text">&nbsp;Соглашаюсь с рассылкой и принимаю&nbsp;<a href="#" class="modal__contract">Условия договора</a></label>
 
                     <button type="submit" class="modal__window-button">Отправить</button>
                

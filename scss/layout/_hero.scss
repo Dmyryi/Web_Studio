@@ -27,9 +27,10 @@
   }
   
   .hero {
-    width: 100%;
+    max-width: 1600px;
     padding-top: 118px;
     padding-bottom: 118px;
+    margin: 0 auto;
   }
   
   .hero__tittle {
